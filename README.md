@@ -1,3 +1,5 @@
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=000000&size=30&lines=Hey!+It's+Lahiru Kalutotage!+👋;I'm+a+.net+Developer;I'm+a+Web+App+Developer;;I'm+a+Full+Stack+Developer)
+<!-- <h1 align="center">Hi 👋, I'm Aakash</h1> -->
 <h1 align="center" style="color: green;">Hi 👋, I'm Lahiru Kalutotage</h1>
 <h3 align="center" style="color: green;">A passionate Software developer from Sri Lanka</h3>
 
