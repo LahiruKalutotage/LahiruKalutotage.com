@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **LahiruKalutotage@gmail.com**
 
-- ✆ - 0718991994
+- 📱 +94718991994
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
