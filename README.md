@@ -68,6 +68,12 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 <br>
+
+## 🔵<strong> Commitment on Github 🐱</strong>
+<br>
+
+![Streak](https://github-readme-streak-stats.herokuapp.com?user=LahiruKalutotage&theme=algolia)
+
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=lahirukalutotage&show_icons=true&locale=en&layout=compact" alt="lahirukalutotage" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lahirukalutotage&show_icons=true&locale=en" alt="lahirukalutotage" /></p>
