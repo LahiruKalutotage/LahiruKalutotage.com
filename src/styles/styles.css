@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+.contact-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-details ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.contact-details li {
+    margin: 10px 0; /* Space between list items */
+    font-size: 18px; /* Increase font size */
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    transition: color 0.3s;
+}
+
+.contact-details a:hover {
+    color: #ff6347; /* Hover color */
+}
+
+/* General Reset and Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #ff6347;
+}
+
+.main-content {
+    flex: 1; /* Allows the main content area to expand and fill the space between the header and footer */
+    padding: 80px 20px 60px; /* Add top padding to account for the fixed header and bottom padding for the fixed footer */
+    background-color: #f4f4f4;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto; /* Center the content */
+    gap: 20px;
+}
+
+.profile-photo {
+    border-radius: 10%;
+    width: 150px;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+/* Social Media Section Styles */
+.social-media-section {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link img {
+    width: 40px; /* Adjust size of social media icons */
+    height: auto;
+    transition: opacity 0.3s;
+}
+
+.social-link img:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-photo {
+        width: 120px;
+        border-radius: 0%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .logo {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .main-content {
+        padding: 90px 10px 60px; /* Adjust padding for smaller screens */
+    }
+
+    .home-content h1 {
+        font-size: 24px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+}
